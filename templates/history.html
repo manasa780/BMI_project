@@ -1,0 +1,29 @@
+<h2>BMI History</h2>
+
+<table border="1">
+
+<tr>
+<th>Name</th>
+<th>Weight</th>
+<th>Height</th>
+<th>BMI</th>
+<th>Category</th>
+<th>Date</th>
+</tr>
+
+{% for r in records %}
+
+<tr>
+<td>{{r.name}}</td>
+<td>{{r.weight}}</td>
+<td>{{r.height}}</td>
+<td>{{r.bmi}}</td>
+<td>{{r.category}}</td>
+<td>{{r.date}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<a href="/">Back</a>
