@@ -11,13 +11,13 @@ BMI = weight (kg) / height (m²)
 
 Based on the BMI value, the system categorizes the user into:
 
-Underweight
+1. Underweight
 
-Normal
+2. Normal
 
-Overweight
+3. Overweight
 
-Obese
+4. Obese
 
 The application also provides a simple interface for entering data and viewing BMI results.
 
